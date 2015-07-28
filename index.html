@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link href="css/owl.carousel.css" rel="stylesheet">
+<link href="css/owl.theme.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+
+<body>
+<div class="container">
+	<div class="row">
+		<div class="news">
+			<h1>Owl Carousel figure slider</h1>
+				<div id="owl" class="owl-carousel">
+				</div>
+		</div>
+	</div>
+</div>
+		
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+
+      $("#owl").owlCarousel({
+        jsonPath : 'js/customData.json',
+        jsonSuccess : customDataSuccess,
+        lazyLoad : true,
+        navigation : true,
+        items: 4,
+        navigationText:["<",">"]
+      });
+
+      function customDataSuccess(data){
+        var content = "";
+        for(var i in data["items"]){
+           
+           var img = data["items"][i].img;
+           var alt = data["items"][i].alt;
+           var title = data["items"][i].title;
+           var text = data["items"][i].text;
+           var label = data["items"][i].label;
+           var icon = data["items"][i].icon;
+
+           content += "<figure><img src=\"" +img+ "\" alt=\"" +alt+ "\">"
+           content +="<figcaption><h5>"+title+"</h5>"+"<h6>"+label+"</h6><img class='icon-lbl' src='"+icon+"'><p>"+text+"</p></figcaption></figure>"
+
+
+
+        }
+        $("#owl").html(content);
+      }
+
+    });
+    </script>
+
+</body>
+</html>

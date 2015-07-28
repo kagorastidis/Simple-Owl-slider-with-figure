@@ -1,0 +1,282 @@
+/*Responsive Styles*/
+
+@media screen and (max-width : 780px){
+	/*Make dropdown links appear inline*/
+	.nav ul {
+		position: static;
+		
+	}
+	/*Create vertical spacing*/
+	.nav li {
+		margin-bottom: 1px;
+		padding-right: 10px;
+	}
+	/*Make all menu links full width*/
+	.nav ul li, li a {
+		width: 90%;
+		display: block;
+    padding-top: 20px;
+	}
+	/*Display 'show menu' link*/
+	.show-menu {
+		display:block;
+	}
+
+	.header{
+		background-color: #fff;
+
+	}
+
+	.pull-right{
+		padding-right: 10px;
+		width: 90%
+	}
+
+	.top-icons{
+		display: inline-flex;
+		padding-bottom: 20px;
+		text-align: center;
+	}
+
+	.line{
+		border:0 none;
+	}
+
+	.logo{
+		padding-left: 55px;
+		margin: 0 !important;
+		padding-top:50px;
+	}
+
+	.buttons{
+		padding-right: 25px;
+		margin-top: 0 !important;
+	}
+
+	.header{
+		font-size: 12px;
+	}
+
+	.search input#search{
+		width: 245px;
+		margin-top: 0 !important;
+		margin-left: 0 !important;
+	}
+
+	h2{
+		font-size: 18px;
+	}
+
+	h1{
+		font-size: 22px;
+	}
+
+	.news h1{
+		padding-top: 30px;
+		font-size: 22px;
+	}
+
+	.owl-theme .owl-controls .owl-buttons div{
+		position: relative;
+		top:0;
+		left: 0;
+		right: 0;
+	}
+
+	.owl-theme .owl-controls .owl-buttons .owl-prev{
+		top:0;
+		left: 0;
+		right: 0;
+	}
+
+	.owl-theme .owl-controls .owl-buttons .owl-next{
+		top:0;
+		left: 0;
+		right: 0;
+	}
+
+	#footer h1{
+		font-size: 25px;
+	}
+
+	#footer h2{
+	font-size: 18px;
+    padding-left: 35px;
+    text-align: center;
+    width: 90%;
+	}
+}
+
+@media screen and (max-width : 995px) and (min-width: 780px){
+
+	.nav{
+		margin-top: 20px;
+	}
+	
+
+	.pull-right{
+		padding-right: 10px;
+		width: 90%
+	}
+
+	.top-icons{
+		display: inline-flex;
+		padding-bottom: 20px;
+		text-align: center;
+	}
+
+	.line{
+		border:0 none;
+	}
+
+	.logo{
+		
+		margin-left: 220px;
+	}
+
+	.buttons{
+		padding-right: 25px;
+		
+	}
+
+	.header{
+		font-size: 12px;
+	}
+
+	.search input#search{
+		width: 245px;
+		margin-top: -50px !important;
+		margin-left: 170px !important;
+	}
+
+	h2{
+		font-size: 18px;
+	}
+
+	h1{
+		font-size: 22px;
+	}
+
+	.news h1{
+		padding-top: 30px;
+		font-size: 22px;
+	}
+
+	.owl-theme .owl-controls .owl-buttons div{
+		position: relative;
+		top:0;
+		left: 0;
+		right: 0;
+	}
+
+	.owl-theme .owl-controls .owl-buttons .owl-prev{
+		top:0;
+		left: 0;
+		right: 0;
+	}
+
+	.owl-theme .owl-controls .owl-buttons .owl-next{
+		top:0;
+		left: 0;
+		right: 0;
+	}
+
+	#footer h1{
+		font-size: 25px;
+	}
+
+	#footer h2{
+	font-size: 18px;
+    padding-left: 35px;
+    text-align: center;
+    width: 90%;
+	}
+}
+
+@media screen and (max-width : 1200px){
+	
+
+	.pull-right{
+		padding-right: 10px;
+		width: 90%
+	}
+
+	.top-icons{
+		display: inline-flex;
+		padding-bottom: 20px;
+		text-align: center;
+		margin-top: -20px;
+	}
+
+	
+
+	.logo{
+		padding-left: 55px;
+	}
+
+	.buttons{
+		text-align: right;
+		margin-top: -35px;
+	}
+
+	.header{
+		font-size: 12px;
+	}
+
+	.search input#search{
+		width: 245px;
+		margin-left: 640px;
+    margin-top: -146px;
+	}
+
+	h2{
+		font-size: 18px;
+	}
+
+	h1{
+		font-size: 22px;
+	}
+
+	.news h1{
+		padding-top: 30px;
+		font-size: 22px;
+	}
+
+	.owl-theme .owl-controls .owl-buttons div{
+		position: relative;
+		top:0;
+		left: 0;
+		right: 0;
+	}
+
+	.owl-theme .owl-controls .owl-buttons .owl-prev{
+		top:0;
+		left: 0;
+		right: 0;
+	}
+
+	.owl-theme .owl-controls .owl-buttons .owl-next{
+		top:0;
+		left: 0;
+		right: 0;
+	}
+
+	#footer h1{
+		font-size: 25px;
+	}
+
+	#footer h2{
+	font-size: 18px;
+    padding-left: 35px;
+    text-align: center;
+    width: 90%;
+	}
+
+	.search .icon{
+		display: none;
+	}
+
+	.news{
+		background: none;
+	}
+}

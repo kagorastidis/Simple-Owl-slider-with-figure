@@ -1,0 +1,72 @@
+{
+	"items" : [
+		{
+			"img": "./img/carousel/news1.jpg",
+			"alt" : "news Image 1",
+			"title" : "Aenean euismod gravida",
+			"text" : "Lorem ipsum dolor sit amscing elit. Aenean euismosan et viverra justo commodo.",
+			"label" :"LATEST NEWS",
+			"icon" : "./img/carousel/new.jpg"
+		},
+		{
+			"img": "./img/carousel/news2.jpg",
+			"alt" : "news Image 2",
+			"title" : "Aenean euismod gravida",
+			"text" : "Lorem ipsum dolor sit amscing elit. Aenean euismosan et viverra justo commodo.",
+			"label" : "JOIN US",
+			"icon" : "./img/carousel/people.jpg"
+		},
+		{
+			"img": "./img/carousel/news3.jpg",
+			"alt" : "news Image 1",
+			"title" : "Aenean euismod gravida",
+			"text" : "Lorem ipsum dolor sit amscing elit. Aenean euismosan et viverra justo commodo.",
+			"label" : "CAT OF THE WEEK",
+			"icon" : "./img/carousel/cat.jpg"
+		},
+		{
+			"img": "./img/carousel/news4.jpg",
+			"alt" : "news Image 2",
+			"title" : "Aenean euismod gravida",
+			"text" : "Lorem ipsum dolor sit amscing elit. Aenean euismosan et viverra justo commodo.",
+			"label" : "CAT OF THE WEEK",
+			"icon" : "./img/carousel/cat.jpg"
+		},
+
+		{
+			"img": "./img/carousel/news1.jpg",
+			"alt" : "news Image 1",
+			"title" : "Aenean euismod gravida",
+			"text" : "Lorem ipsum dolor sit amscing elit. Aenean euismosan et viverra justo commodo.",
+			"label" :"LATEST NEWS",
+			"icon" : "./img/carousel/new.jpg"
+		},
+		{
+			"img": "./img/carousel/news2.jpg",
+			"alt" : "news Image 2",
+			"title" : "Aenean euismod gravida",
+			"text" : "Lorem ipsum dolor sit amscing elit. Aenean euismosan et viverra justo commodo.",
+			"label" : "JOIN US",
+			"icon" : "./img/carousel/people.jpg"
+		},
+		{
+			"img": "./img/carousel/news3.jpg",
+			"alt" : "news Image 1",
+			"title" : "Aenean euismod gravida",
+			"text" : "Lorem ipsum dolor sit amscing elit. Aenean euismosan et viverra justo commodo.",
+			"label" : "CAT OF THE WEEK",
+			"icon" : "./img/carousel/cat.jpg"
+		},
+		{
+			"img": "./img/carousel/news4.jpg",
+			"alt" : "news Image 2",
+			"title" : "Aenean euismod gravida",
+			"text" : "Lorem ipsum dolor sit amscing elit. Aenean euismosan et viverra justo commodo.",
+			"label" : "CAT OF THE WEEK",
+			"icon" : "./img/carousel/cat.jpg"
+		}
+
+
+
+	]
+}
